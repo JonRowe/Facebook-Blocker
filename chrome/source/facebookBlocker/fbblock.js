@@ -6,7 +6,7 @@ document.addEventListener('load', handleBeforeLoadEvent, true);
 function handleBeforeLoadEvent(event) {
 	const element = event.target;
 
-	if(pageURL != 'www.facebook.com' && pageURL != 'developers.facebook.com'){
+	if(pageURL != 'www.facebook.com' && pageURL != 'developers.facebook.com' && pageURL != 'apps.facebook.com'){
 		if(element.nodeName == 'IFRAME'){
 			if(element.src.toLowerCase().indexOf('facebook.com/extern/') > 0){
 				element.parentNode.removeChild(element);
