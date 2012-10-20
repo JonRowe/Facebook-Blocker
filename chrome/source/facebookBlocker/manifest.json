@@ -1,6 +1,6 @@
 {
   "name": "FacebookBlocker: Developer Edition",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "manifest_version": 2,
   "description": "Block Facebook content from appearing on other websites, but allow the developer dashboard. Based on FacebookBlocker by Alex Rubin.",
 	"icons":{
